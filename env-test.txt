@@ -1,0 +1,8 @@
+[source-config]
+source=kafka
+bootstrap_servers=localhost:9092,
+topic=cdc-events
+
+[sink-config]
+sink=opensearch
+opensearch_url=localhost:9200
